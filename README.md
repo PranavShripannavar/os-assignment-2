@@ -4,6 +4,10 @@ A working multithreaded sensor-data processing experiment with a Next.js fronten
 
 Pranav Shripannavar · PRN 202501110195 · Division C · Batch C2 · Course OS · Assignment 2
 
+**Live application:** https://os-assignment-2-sigma.vercel.app
+
+**Report:** [OS Assignment 2 report](OS-Assignment2-Report-Pranav-Shripannavar.pdf)
+
 ## Run locally
 
 Requires Node.js 22.13+ and npm. Python implementation requires Python 3.9+ with no third-party packages.
@@ -88,6 +92,8 @@ python python/benchmark.py --records 10000 --threads 4 --bands 32
 ## Deployment
 
 Deploy as a Next.js project on Vercel. Set `GEMINI_API_KEY` as a server environment variable, then redeploy. The `/api/analyze` Node.js function has a 60-second maximum duration. No database is required. Measurements exist only in browser memory unless exported.
+
+The delivered production site was deployed directly and verified with Gemini configured for Production. Automatic deployments from GitHub are not connected. Source and submission documents are pushed to this repository; later code changes require a new deployment.
 
 ## References
 

@@ -1,0 +1,11 @@
+{
+  "url": "https://os-assignment-2-sigma.vercel.app",
+  "date": "2026-09-16",
+  "browser": "Codex in-app browser",
+  "smallWorkload": {"records": 1000, "threads": 2, "bands": 8, "singleMsDisplayed": 112.2, "multiMsDisplayed": 153.9, "equal": true},
+  "largeWorkload": {"records": 100000, "threads": 8, "bands": 8, "singleMsDisplayed": 1877.9, "multiMsDisplayed": 470.3, "equal": true, "completedWorkerCards": 8},
+  "cancellation": {"records": 100000, "bands": 64, "message": "Benchmark cancelled.", "runButtonRestored": true},
+  "download": {"file": "browser-measurement.json", "verified": true},
+  "mobile": {"viewportWidth": 375, "documentScrollWidth": 375},
+  "notes": "Displayed timings are rounded. Native download was verified in the in-app browser after agent-browser download automation stalled."
+}

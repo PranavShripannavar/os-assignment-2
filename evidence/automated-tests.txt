@@ -1,0 +1,18 @@
+
+> threadlab@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ uneven partitions cover every record once and differ by at most one (1.7748ms)
+✔ seeded input repeats exactly and a different seed changes it (0.6421ms)
+✔ known zero-centered windows have zero energy and no anomalies (0.4726ms)
+✔ real worker threads equal the sequential computation for every complexity (1061.523ms)
+✔ API validator strips user instructions and recomputes derived values (1.2525ms)
+✔ API validator rejects missing, overlapping, nonfinite and inconsistent metrics (0.5996ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1172.761

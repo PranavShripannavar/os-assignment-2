@@ -1,0 +1,31 @@
+{
+  "url": "https://os-assignment-2-sigma.vercel.app",
+  "time": "2026-09-16T06:21:46.314Z",
+  "checks": [
+    {
+      "check": "Public page",
+      "status": 200
+    },
+    {
+      "check": "Public JavaScript and workers",
+      "files": 9,
+      "keyAbsent": true
+    },
+    {
+      "check": "Invalid measurement rejected",
+      "status": 400
+    },
+    {
+      "check": "Invalid measurement rejected",
+      "status": 400
+    },
+    {
+      "check": "Invalid measurement rejected",
+      "status": 400
+    },
+    {
+      "check": "Oversized measurement rejected",
+      "status": 413
+    }
+  ]
+}
